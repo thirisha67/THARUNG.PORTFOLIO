@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THARUN.G | Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    position:fixed;
+    width:100%;
+    background:#000;
+    z-index:1000;
+}
+
+nav h2{
+    color:#00ff99;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size:14px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#00ff99;
+}
+
+/* HERO SECTION */
+.hero{
+    height:100vh;
+    background: radial-gradient(circle, #003300 0%, #000000 70%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    padding-top:80px;
+}
+
+.hero img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:4px solid #00ff99;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero span{
+    color:#00ff99;
+}
+
+.hero p{
+    margin:15px 0;
+    max-width:500px;
+    font-size:14px;
+    color:#ccc;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 25px;
+    background:#00ff99;
+    color:#000;
+    text-decoration:none;
+    border-radius:20px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+/* SECTION */
+section{
+    padding:80px 100px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:28px;
+    color:#00ff99;
+}
+
+/* ABOUT */
+.about{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.about img{
+    width:250px;
+    border-radius:15px;
+}
+
+.about-text{
+    max-width:600px;
+}
+
+/* SKILLS */
+.skills{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.skill-box{
+    background:#111;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #00ff99;
+    width:250px;
+    margin:15px;
+    text-align:center;
+}
+
+.skill-box h3{
+    color:#00ff99;
+    margin-bottom:10px;
+}
+
+/* PROJECTS */
+.projects{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    background:#111;
+    width:280px;
+    margin:15px;
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid #00ff99;
+}
+
+.project-card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+}
+
+.project-card h4{
+    padding:10px;
+    color:#00ff99;
+}
+
+.project-card p{
+    padding:0 10px 15px;
+    font-size:13px;
+    color:#ccc;
+}
+
+/* CONTACT */
+.contact{
+    text-align:center;
+}
+
+.contact-icons a{
+    margin:10px;
+    color:#00ff99;
+    font-size:20px;
+    text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>THARUN.G</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <img src="et.jpg" alt="Profile">
+    <h1>Hi, I'm <span>THARUN.G</span></h1>
+    <h3 style="color:#00ff99;">Software Developer</h3>
+    <p>A software developer is a professional who designs, builds, and maintains computer programs and applications. They use programming languages like Java, Python, C++, and JavaScript to create software that solves real-world problems. Software developers work on websites, mobile apps, desktop applications, and system software.</p>
+    <a href="#projects" class="btn">View Projects</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">ABOUT ME</h2>
+    <div class="about">
+        <div class="about-text">
+            <p>I am very interested in learning new things and improving my knowledge every day. I have a strong interest in coding and software development. I enjoy understanding how programs work and building simple applications. My goal is to continuously learn new technologies and grow as a skilled developer.As a software developer, I am passionate about solving problems and creating user-friendly solutions. I am always eager to learn new technologies and expand my knowledge</p>
+        </div>
+        <img src="gt.jpg" alt="About Image">
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2 class="section-title">SKILLS</h2>
+    <div class="skills">
+        <div class="skill-box">
+            <h3>Frontend</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Backend</h3>
+            <p>Node.js</p>
+            <p>Express</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Tools</h3>
+            <p>Git</p>
+            <p>GitHub</p>
+            <p>VS Code</p>
+        </div>
+    </div>
+</section>
+<!-- PROJECTS -->
+<section id="projects">
+    <h2 class="section-title">PROJECTS</h2>
+    <div class="projects">
+        <div class="project-card">
+            <img src="po.jpg" alt="">
+            <h4>Portfolio Website</h4>
+            <p>Personal responsive portfolio website.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="gps.jpg" alt="">
+            <h4>GPS Tracking </h4>
+            <p>Track and manage travel expenses easily.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="ev.jpg" alt="">
+            <h4>Events PlaneS Display</h4>
+            <p>Professional website for business solutions.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2 class="section-title">CONTACT ME</h2>
+    <div class="contact">
+        <p>Email: tharun.gpts@gmail</p>
+        <p>Phone: +91 7708211838</p>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/tharun-g-b9ab5539b">LinkedIn</a>
+            <a href="https://github.com/Tharun03032008/Work">GitHub</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 Tharun.g. All Rights Reserved.
+</footer>
+
+</body>
+</html>
